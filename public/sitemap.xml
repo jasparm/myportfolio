@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://scuffed.page/</loc>
+    </url>
+    <url>
+        <loc>https://scuffed.page/about/</loc>
+    </url>
+    <url>
+        <loc>https://scuffed.page/blog/</loc>
+    </url>
+    <url>
+        <loc>https://scuffed.page/blog/first/</loc>
+        <lastmod>2022-07-15</lastmod>
+    </url>
+</urlset>
