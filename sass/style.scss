@@ -1,0 +1,55 @@
+//@use 'dark';
+@import "light";
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+  text-align: center;
+}
+
+#navbar > li {
+  display: inline;
+  float: right;
+  padding: 14px 16px;
+  font-size: 25px;
+}
+
+
+
+#blogs > li {
+  list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: $primary-color;
+  text-decoration-color: $cyan;
+  text-decoration-thickness: 4px;
+  text-decoration-style: solid;
+  letter-spacing: 0px;
+}
+
+*.highlight {
+  text-decoration: underline;
+}
+
+.over-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: right;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
