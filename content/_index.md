@@ -5,4 +5,5 @@ template = "home.html"
 page_template = "home.html"
 +++
 
-## I like men
+
+## This is the home page

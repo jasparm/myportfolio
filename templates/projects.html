@@ -3,14 +3,14 @@
 {% block content %}
 <header><ul id="navbar">
     <li><a href="{{ get_url(path="@/about/_index.md") }}">About</a></li>
-    <li class="highlight"><a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a></li>
-    <li><a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a></li>
+    <li> <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a></li>
+    <li class="highlight"><a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a></li>
     <li><a href="{{ get_url(path="@/_index.md") }}">Home</a></li>
   </ul></header>
 
 
 
-<ul id="blogs">
+<ul id="projects">
   {% for page in section.pages %}
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
   {% endfor %}
