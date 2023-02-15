@@ -7,6 +7,6 @@ I am starting to learn rust. This is my journey.
 
 ``` Rust
 fn yeet() {
-
+    println!("Yeetus Feetus");
 }
 ```

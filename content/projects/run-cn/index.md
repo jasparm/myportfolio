@@ -5,4 +5,6 @@ template = "project-page.html"
 +++
 
 
-{{ image(loc="/projects/run-cn/comp_14_02_2023.png", desc="My coverage so far") }}
+{{ image(loc="/projects/run-cn/comp_14_02_2023.pn", desc="My coverage so far") }}
+
+{{ map() }}
