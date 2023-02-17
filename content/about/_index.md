@@ -10,7 +10,7 @@ page_template="gen-page.html"
 I am a uni student studying computer science. I enjoy puzzles and problem solving in general. I love trying and learning new things. I enjoy the outdoors, especially hiking and being in the ocean.\
 
 Also, this is my dog:\
-{{ image(loc="/about/fritz.jpg", desc="My dog, Fritz", size=50)}}
+{{ image(loc="/about/fritz.jpg", desc="My dog, Fritz", size=70)}}
 
 ---
 

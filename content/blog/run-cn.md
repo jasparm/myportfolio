@@ -3,7 +3,7 @@ title = "Running the length of Caulfield North"
 date = 2023-02-17
 +++
 
-[**link back to the project page**](@/projects/run-cn/index.md)
+[**to the project page**](@/projects/run-cn/index.md)
 
 Firstly, this project was inspired by [**this**](https://youtu.be/1c8i5SABqwU) video by [**Tom Murphy**](http://tom7.org/).
 
@@ -13,7 +13,7 @@ The second part is the fitness aspect, because I used to be a lot fitter than I 
 
 While I have no plans for after I complete Caufield North, I do think that increasing my range is definitely in the sights, as by then I should be fitter and more capable of going on longer runs. Also hopefully it is colder by then.
 
-Right now what I have in terms of the website is just a screen shot of another [**program**](https://gpx.studio/) that I used as a test:
+Right now what I have in terms of the website is just a screen shot of another program, [**gpx.studio**](https://gpx.studio/) that I used as a test:
 
 {{ image(loc="/projects/run-cn/comp_14_02_2023.png", desc="My coverage so far", size=50) }}
 
