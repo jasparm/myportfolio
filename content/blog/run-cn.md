@@ -15,9 +15,11 @@ While I have no plans for after I complete Caufield North, I do think that incre
 
 Right now what I have in terms of the website is just a screen shot of another program, [**gpx.studio**](https://gpx.studio/) that I used as a test:
 
-{{ image(loc="/projects/run-cn/comp_14_02_2023.png", desc="My coverage so far", size=50) }}
+{{ image(loc="/projects/run-cn/comp_20_02_2023.png", desc="My coverage so far", size=50) }}
 
 Which is kind of what I want my finished map to look like, except interactive. I could just embed the gpx.studio map, but I feel like thats cheating, and I want to do it myself from scratch (or at least build off mapbox like gpx.studio does). Thats why I have the mapbox map on the project page as a placeholder as well.
+
+I think I might try using MongoDB, purely because I have some free credit for it. I will parse my GPX files into collections, so each line will be a data point in the gpx file, and each collection will be a file.
 
 ---
 
