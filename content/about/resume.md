@@ -1,6 +1,6 @@
 +++
 title = "resume"
-date = 2023-28-02
+date = 2023-02-28
 draft = true
 +++
 # Jaspar Martin
