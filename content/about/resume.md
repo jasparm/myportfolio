@@ -19,8 +19,8 @@ Adaptable and driven computer science student with retail sales, coaching, and H
 
 #### August 2022 - Current
 
-- Key responsibilities include working and selling in the tech department, educating customers about technology in general as well as specific products.
-- Major achievements include helping to raise the storewide numbers for Telco sales from around 10 to 20 sales per month before I was employed to 10+ per week, both from personally selling them as well as encouraging and training others how to sell them as well.
+- Key responsibilities include visual merchandising and sales work in the tech department, educating customers about technology in general as well as specific products.
+- Major achievements include being a key player in increasing Telco sales from 10 to 20 sales per month to 10+ per week. As well as having the highest sales I also encouraged and trained colleagues in better sales techniques.
 - Key takeaways from the job include a marked improvement in communication skills, in particular with adapting my approach to different types of people. In addition, an improvement in dealing with a variety of situations, both in terms of customer queries, issues, as well as learning about how the business operates.
 
 ### HPC Team Member / **Monash Deep Neuron**
