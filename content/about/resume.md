@@ -85,6 +85,6 @@ Currently in third year
 ## Key Skills / Interests
 
 - Exceedingly curious and willing to learn for the sake of learning
-- Highly adaptable to new environements and stimuli
+- Highly adaptable to new environments and stimuli
 - Strong Japanese language skills
 - Keen hiker, runner, reader, gamer
