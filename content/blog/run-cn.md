@@ -24,3 +24,8 @@ I think I might try using MongoDB, purely because I have some free credit for it
 ---
 
 Anyway, I will keep working on the project, improving the visualisation and automation of data transfer, as well as running more.
+
+---
+
+**10/03/2023**
+It's been a few weeks. There was point a week back where my knee was hurting quite badly, I think because of the amount of running on concrete, which I am not used to. But, after a bit of rest, I am back running. Today I started filling out some of the empty space on the map, doing zig zags, getting every street. My knee felt a lot better. 
