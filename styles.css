@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    width: 80%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+#input-box {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#result {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+    z-index: 3;
+    max-width: 80%;
+    word-wrap: break-word;
+}

@@ -4,61 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Civilization Randomizer</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 50px;
-        }
-        #result {
-            font-size: 24px;
-            margin-top: 20px;
-            color: #333;
-        }
-        #input-box {
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Civilization Randomizer</h1>
-    <div id="input-box">
-        <input type="text" id="seed" placeholder="Enter seed">
-        <button id="rollButton">Roll Civilization</button>
+    <div id="container">
+        <div id="input-box">
+            <input type="text" id="seed" placeholder="Enter seed">
+            <button id="rollButton">Roll Civilization</button>
+        </div>
+        <img src="slotmachine.png" alt="Background Image" id="background-image">
+        <div id="result"></div>
     </div>
-    <div id="result"></div>
 
-    <script>
-        const civs = ['Teddy Bull', 'Teddy Rough', 'Lincoln', 'Saladin Vizier', 'Saladin Sultan', 'Curtin', 'Montezuma', 'Hammurabi', 'Pedro', 'Basil', 'Theodora', 'Wilfrid', 'Qin Mandate', 'Qin Unifier', 'Kublai Chinese', 'Yongle', 'Wu Zetian', 'Poundmaker', 'Wilhelmina', 'Cleopatra Egypt', 'Cleopatra Ptolemaic', 'Ramses', 'Victoria Steam', 'Victoria Empire', 'Eleanor England', 'Lizzy', 'Menelik', 'Catherine Black', 'Catherine Magnificence', 'Eleanor French', 'Ambiorix', 'Tamar',
-        'Barbarossa', 'Ludwig', 'Simon', 'Pericles', 'Gorgo', 'Matthias', 'Pachacuti', 'Gandhi', 'Chandragupta', 'Gitarja', 'Hojo', 'Tokugawa', 'Javayaman', 'Mvemba', 'Nzinga', 'Seondeok', 'Sejong', 'Alexander', 'Mansa Musa', 'Sundiata', 'Kupe', 'Lautaro', 'Lady Six Sky', 'Genghis', 'Kublai Mongol', 'Harald Konge', 'Harald Varangian', 'Amanitore', 'Suleiman Kanuni', 'Suleiman Muhtesem', 'Cyrus', 'Nader', 'Dido', 'Jadwiga', 'Joao', 'Trajan', 'Caesar', 'Peter', 'Rob the Bruce',
-        'Tomyris', 'Phillip', 'Gilgamesh', 'Kristina', 'Ba Trieu', 'Shaka'];
-
-        function shuffle(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
-        }
-
-        function displayRandomCiv() {
-            const randomCiv = civs[Math.floor(Math.random() * civs.length)];
-            document.getElementById('result').textContent = randomCiv;
-        }
-
-        document.getElementById('rollButton').addEventListener('click', function() {
-            const seed = document.getElementById('seed').value;
-            if (seed) {
-                Math.seedrandom(seed); // Seed the random generator
-                shuffle(civs); // Shuffle the civs array
-                displayRandomCiv(); // Display a random civilization
-            } else {
-                alert("Please enter a seed!");
-            }
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
