@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Civilization Randomizer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div id="container">
-        <div id="input-box">
-            <input type="text" id="seed" placeholder="Enter seed">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Civilization Randomizer</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div id="container" style="position: relative">
+            <div id="input-box">
+                <input type="text" id="seed" placeholder="Enter seed" />
+            </div>
+            <div id="slotmachine-container" style="position: relative; height: 50%">
+                <img src="slotmachine.png" />
+                <img src="slotarm.png" id="slotarm" />
+            </div>
+            <div id="result-box"><p id="result"></p></div>
         </div>
-        <img src="slotmachine.png" alt="Background Image" id="background-image">
-        <div id="result"></div>
-    </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
-    <script src="script.js"></script>
-</body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
