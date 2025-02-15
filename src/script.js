@@ -86,7 +86,7 @@ document.getElementById("slotarm").addEventListener("click", (event) => {
         if (currentCivs.length === 0) {
             randomCiv = "NO CIVS LEFT";
         } else {
-            randomCiv = currentCivs[Math.floor(Math.random() * civs.length)];
+            randomCiv = currentCivs[Math.floor(Math.random() * currentCivs.length)];
             currentCivs.pop(randomCiv);
         }
         document.getElementById("result").textContent = randomCiv;
